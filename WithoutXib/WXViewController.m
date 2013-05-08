@@ -14,6 +14,14 @@
 
 @implementation WXViewController
 
+- (id)init {
+    self = super.init;
+    if (self) {
+        self.title = NSLocalizedString(@"Without Xib", nil);
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
