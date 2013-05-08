@@ -17,8 +17,6 @@
 		9B23E96E1739D402009B0D6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B23E96D1739D402009B0D6B /* Default@2x.png */; };
 		9B23E9701739D402009B0D6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B23E96F1739D402009B0D6B /* Default-568h@2x.png */; };
 		9B23E9731739D402009B0D6B /* WXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23E9721739D402009B0D6B /* WXViewController.m */; };
-		9B23E9761739D402009B0D6B /* WXViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B23E9741739D402009B0D6B /* WXViewController_iPhone.xib */; };
-		9B23E9791739D402009B0D6B /* WXViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B23E9771739D402009B0D6B /* WXViewController_iPad.xib */; };
 		9B23E9811739D402009B0D6B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B23E9801739D402009B0D6B /* SenTestingKit.framework */; };
 		9B23E9821739D402009B0D6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B23E9591739D402009B0D6B /* UIKit.framework */; };
 		9B23E9831739D402009B0D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B23E95B1739D402009B0D6B /* Foundation.framework */; };
@@ -52,8 +50,6 @@
 		9B23E96F1739D402009B0D6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9B23E9711739D402009B0D6B /* WXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXViewController.h; sourceTree = "<group>"; };
 		9B23E9721739D402009B0D6B /* WXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXViewController.m; sourceTree = "<group>"; };
-		9B23E9751739D402009B0D6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WXViewController_iPhone.xib; sourceTree = "<group>"; };
-		9B23E9781739D402009B0D6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WXViewController_iPad.xib; sourceTree = "<group>"; };
 		9B23E97F1739D402009B0D6B /* WithoutXibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WithoutXibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B23E9801739D402009B0D6B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9B23E9881739D402009B0D6B /* WithoutXibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WithoutXibTests-Info.plist"; sourceTree = "<group>"; };
@@ -123,8 +119,6 @@
 				9B23E9691739D402009B0D6B /* WXAppDelegate.m */,
 				9B23E9711739D402009B0D6B /* WXViewController.h */,
 				9B23E9721739D402009B0D6B /* WXViewController.m */,
-				9B23E9741739D402009B0D6B /* WXViewController_iPhone.xib */,
-				9B23E9771739D402009B0D6B /* WXViewController_iPad.xib */,
 				9B23E9601739D402009B0D6B /* Supporting Files */,
 			);
 			path = WithoutXib;
@@ -239,8 +233,6 @@
 				9B23E96C1739D402009B0D6B /* Default.png in Resources */,
 				9B23E96E1739D402009B0D6B /* Default@2x.png in Resources */,
 				9B23E9701739D402009B0D6B /* Default-568h@2x.png in Resources */,
-				9B23E9761739D402009B0D6B /* WXViewController_iPhone.xib in Resources */,
-				9B23E9791739D402009B0D6B /* WXViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +298,6 @@
 				9B23E9631739D402009B0D6B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9B23E9741739D402009B0D6B /* WXViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B23E9751739D402009B0D6B /* en */,
-			);
-			name = WXViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		9B23E9771739D402009B0D6B /* WXViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B23E9781739D402009B0D6B /* en */,
-			);
-			name = WXViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		9B23E9891739D402009B0D6B /* InfoPlist.strings */ = {
